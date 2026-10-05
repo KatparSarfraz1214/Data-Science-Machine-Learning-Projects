@@ -6,3 +6,5 @@
 
 
 If this project helped you understand machine learning classification, consider giving the repository a ⭐ on GitHub.
+
+## Customer Churn Project 
