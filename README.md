@@ -1,7 +1,7 @@
 # Data Science & Machine Learning Projects
 
 
-## Iris Flower Classification using Machine Learning
+## Iris Flower Dataset Classification
 [View Project](https://github.com/KatparSarfraz1214/Data-Science-Machine-Learning-Projects/tree/5a538a24bff7394cde7194fc60220e7888302f2c/Iris%20Dataset%20Classification)
 
 
