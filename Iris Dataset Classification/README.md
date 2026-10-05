@@ -17,21 +17,55 @@ Using four features:
 * Petal Length
 * Petal Width
 
-## 🧠 Workflow
+## 🧠 Machine Learning Workflow
 
 ```text
-Iris Dataset
-     ↓
-Data Preparation & EDA
-     ↓
-Train/Test Split (80/20)
-     ↓
-Logistic Regression + KNN
-     ↓
-Model Evaluation
-     ↓
-Streamlit Web App
+                    ┌─────────────────────┐
+                    │   Iris Dataset      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Data Preparation    │
+                    │ & Exploration       │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Exploratory Data    │
+                    │ Analysis (EDA)      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Train/Test Split    │
+                    │       80 / 20       │
+                    └──────────┬──────────┘
+                               │
+                    ┌──────────┴──────────┐
+                    ▼                     ▼
+          ┌─────────────────┐   ┌─────────────────┐
+          │ Logistic        │   │ K-Nearest       │
+          │ Regression      │   │ Neighbors       │
+          └────────┬────────┘   └────────┬────────┘
+                   │                     │
+                   └──────────┬──────────┘
+                              ▼
+                    ┌─────────────────────┐
+                    │ Model Evaluation    │
+                    │ Accuracy            │
+                    │ Confusion Matrix    │
+                    │ Classification      │
+                    │ Report              │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Streamlit Web App   │
+                    └─────────────────────┘
 ```
+
+---
 
 ## 📊 Dataset
 
