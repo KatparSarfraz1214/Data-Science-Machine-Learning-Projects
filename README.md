@@ -1,4 +1,4 @@
-# Data-Science-Machine-Learning-Projects
+# Data Science & Machine-Learning Projects
 A sperate repository for Projects on Data Science and Machine Learining 
 
 # 🌸 Iris Flower Classification using Machine Learning
